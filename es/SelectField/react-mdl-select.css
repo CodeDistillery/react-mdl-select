@@ -1,0 +1,22 @@
+.autocomplete-list {
+    background: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    position: absolute;
+    width: 250px;
+    max-height: 250px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    z-index: 10000;
+}
+
+.autocomplete-list__found-item {
+    color: #263238!important;
+    width: 100%!important;
+    padding: 16px!important;
+    cursor: pointer!important;
+}
+
+.autocomplete-list__found-item:hover {
+    background: #F5F5F5;
+}
