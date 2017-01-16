@@ -63,9 +63,6 @@ var SelectField = function (_React$Component) {
         key: 'componentDidUpdate',
         value: function componentDidUpdate(prevProps, prevState) {
             if (!(0, _isEqual2.default)(this.state.foundResult, prevState.foundResult)) {
-                this.setState({
-                    value: ''
-                });
                 this.props.onChange(null);
             }
         }
